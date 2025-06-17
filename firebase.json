@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "auvnet-ecommerce-app",
+          "appId": "1:940597213722:android:e61cb1c2cb5f948e212fa3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "auvnet-ecommerce-app",
+          "configurations": {
+            "android": "1:940597213722:android:e61cb1c2cb5f948e212fa3",
+            "ios": "1:940597213722:ios:83d7a9de9664ce50212fa3"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
