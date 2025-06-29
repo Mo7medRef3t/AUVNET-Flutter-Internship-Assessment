@@ -11,11 +11,9 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   await HiveHelper.initHive();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(
     BlocProvider<AuthBloc>(
       create: (_) => AuthBloc(authRepo: AuthRepoImpl()),
@@ -38,7 +36,7 @@ class MyApp extends StatelessWidget {
           routerConfig: AppRouter.router,
           theme: ThemeData(
             textTheme: GoogleFonts.rubikTextTheme(),
-            scaffoldBackgroundColor: Colors.white
+            scaffoldBackgroundColor: Colors.white,
           ),
         );
       },
