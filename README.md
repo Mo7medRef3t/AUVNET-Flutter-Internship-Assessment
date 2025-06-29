@@ -85,4 +85,4 @@ Due to limitations on Firebase Storage access, **Cloudinary** was used to secure
 
 ## Contact
 
-For any inquiries or feedback, please feel free to reach out via email or GitHub.
+For any inquiries or feedback, please feel free to reach out via email or GitHub
